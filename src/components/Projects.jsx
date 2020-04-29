@@ -5,15 +5,15 @@ import cards from "../cards";
 
 //*********************** Project function *******************************
 let cardsToShow = (
-  <Col className="cardsCol">
+  <div className='container'>
     {cards.map((card, index) => {
       return <ProjectCard
-          id={card.id}
-          Img={card.Img}
-          title={card.title}>
-        </ProjectCard>
+        id={card.id}
+        Img={card.Img}
+        title={card.title}>
+      </ProjectCard>
     })}
-  </Col>
+  </div>
 );
 
 function Project() {
@@ -21,13 +21,7 @@ function Project() {
     <div>
       <div className="headeings" id="projectHeader"><h1>Projects</h1></div>
 
-      <Row>
-        {cardsToShow}
-        {cardsToShow}
-        {cardsToShow}
-        {cardsToShow}
-      </Row>
-
+      {cardsToShow}
     </div>
   );
 }

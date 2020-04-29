@@ -15,7 +15,7 @@
 .navbar {
     padding: 0 0 4rem;
     /* background: transparent; */
-    position: absolute;
+    position: stick;
     opacity: 0.7;
 }
 
@@ -128,6 +128,45 @@ div.cardsCol.col{
 
 .cardImg:hover{
   opacity: 0.5;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .grid{
+  display: block;
+  position: relative;
+  color: white;
+  flex: 0 0 25%;
+  overflow: hidden;
+}
+
+.container .grid:nth-child(4n){
+  margin: 0 0 1% 0
+}
+
+.container .grid .projectTitle{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+  background: rgba(0, 0, 0, 0.25);
+  transform: translateX(100%);
+  transition: transform 0.1s ease;
+}
+
+.container .grid .projectTitle span{
+  padding: 10px;
+}
+
+.container .grid:hover .projectTitle{
+  transform: translateY(0);
 }
 
 /************************ Footer **************************/

@@ -4,13 +4,13 @@ import { withRouter } from "react-router-dom";
 
 function ProjectCard(props){
     return(
-        <a href='#' class='grid'>
-            <img className="cardImg"
-            id ={props.id} 
+        <a href='#' className='project'>
+            <img className="project-image"
+            id ={props.id}
             src={props.Img}
             title={props.title}>
             </img>
-            <div class='projectTitle'><span> {props.title} </span></div>
+            <div className='project-title'><span> {props.title} </span></div>
         </a>
     );
 }

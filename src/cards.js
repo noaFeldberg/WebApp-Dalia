@@ -23,6 +23,26 @@ const cards = [
       key: 4,
       title: "Project4",
       Img: img7
+    },
+    {
+      key: 1,
+      title: "Project1",
+      Img: img4
+    },
+    {
+      key: 2,
+      title: "Project2",
+      Img: img8
+    },
+    {
+      key: 3,
+      title: "Project3",
+      Img: img3
+    },
+    {
+      key: 4,
+      title: "Project4",
+      Img: img7
     }
   ];
   

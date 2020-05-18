@@ -21,7 +21,7 @@ function Project() {
     return (
         <div>
             <div className="headeings" id="projectHeader"><h1>Projects</h1></div>
-
+            
             {cardsToShow}
         </div>
     );

@@ -2,11 +2,12 @@ import React from "react";
 import ReactDOM from 'react-dom';
 
 
-function Contact(){
-    return(
+function Contact() {
+    return (
         <div>
-        <h1> IM IN THE CONTACT PAGE!</h1>
-        </div> 
+            <div className="headeings" id="projectHeader"><h1>Contact</h1></div>
+            <h1> IM IN THE CONTACT PAGE!</h1>
+        </div>
     );
 }
 

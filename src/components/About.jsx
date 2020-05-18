@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from 'react-dom';
 
 
-function About(){
-    return(
+function About() {
+    return (
         <div>
-        <h1>About Me</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur</p>
-        </div> 
+            <div className="headeings" id="projectHeader"><h1>About Me</h1></div>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+        </div>
     );
 }
 

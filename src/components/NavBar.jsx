@@ -8,7 +8,7 @@ function NavBar(){
   return(
     <div>
     <nav className="navbar navbar-expand-lg navbar-dark">
-      <a className="navbar-brand"><Link to={'/'} className='nav-link'><h1>Dalia Boltanski</h1></Link></a>
+      <a className="navbar-brand"><Link to={'/'} className='nav-link'><h1>DB Landscape</h1></Link></a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>

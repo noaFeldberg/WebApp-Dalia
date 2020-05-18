@@ -8,9 +8,6 @@ import Home from './Home';
 import Projects from './Projects';
 import Contact from './Contact';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-// import 'bootstrap/dist/css/bootstrap.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/css/bootstrap-theme.css';
 
 function App() {
     return (

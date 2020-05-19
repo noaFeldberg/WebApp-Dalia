@@ -4,7 +4,7 @@ import { withRouter } from "react-router-dom";
 
 function ProjectCard(props){
     return(
-        <a href='#' className='project'>
+        <a href='./ProjectDescription' className='project'>
             <img className="project-image"
             id ={props.id}
             src={props.Img}

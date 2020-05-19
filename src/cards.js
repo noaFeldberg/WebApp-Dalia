@@ -23,6 +23,11 @@ const cards = [
       key: 4,
       title: "Project4",
       Img: img7
+    },
+    {
+      key: 4,
+      title: "Project4",
+      Img: img7
     }
   ];
   
